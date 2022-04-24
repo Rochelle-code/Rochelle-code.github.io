@@ -1,0 +1,129 @@
+:root {
+    --font-color: white;
+    --main-font: 'Poppins', sans-serif;
+}
+body {
+    margin-top: 0;
+    margin-left: 0;
+    color: var(--font-color);
+    background: linear-gradient(
+        to right,
+        rgba(8, 7, 7, 0.5),
+        rgba(8, 7, 7, 0.8),
+        rgba(8, 7, 7, 0.98),
+        rgba(8, 7, 7, 1),
+        rgba(8, 7, 7, 1)),
+        url('assets//images//colors.png') no-repeat center left/cover;
+    font-family: var(--main-font);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.myphoto img{
+    bottom: 0;
+    right: 0;
+    height: 90vh;
+    opacity: 80%;
+}
+
+.page1 {
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+}
+
+.title {
+    width: 50%;
+    font-weight: bolder;
+    font-size: 4rem;
+    margin-left: 50px;
+    padding-top: 0;
+    color: #12c6e6;
+}
+
+.navbar {
+    width: 50%;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li {
+    margin: auto;
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    transition: color .5s;
+}
+
+.navbar ul li a:hover {
+    color: #12c6e6;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.message {
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-left: 150px;
+    align-self: center;
+}
+
+.message span {
+    font-size: 4rem;
+}
+
+.message span:first-of-type {
+    color: #8D0D64;
+    text-shadow: 2px 2px 5px #12c6e6;
+}
+
+.contacts-wrapper {
+    display: flex;
+    font-size: 1rem;
+    line-height: 5rem;
+    color: #12c6e6;
+}
+
+.contact-links-wrapper {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-links-wrapper li {
+    list-style-type: none;
+}
+
+.contact-links-wrapper li a img{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.contact-links-wrapper li a img:hover {
+    width: 45px;
+    height: 45px;
+}
+
+@media (max-width:1000px) {
+    .navbar ul {
+        display: none;
+    }
+}
