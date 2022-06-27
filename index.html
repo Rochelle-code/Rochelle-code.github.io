@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rochelle Mellomida</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <!-- my logo -->
+        <a class="mylogo" href="index.html">
+            <img src="assets/mylogo.png" alt="my logo">
+        </a>
+
+        <!-- navigation bar-->
+        <nav class="navbar">
+            <a href="#home" class="nav-item">Home</a>
+            <a href="#about" class="nav-item">About</a>
+            <a href="#skills" class="nav-item">Skills</a>
+            <a href="#certificates" class="nav-item">Certificates</a>
+            <a href="#contact" class="nav-item">Contact</a>
+        </nav>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#home" onclick="closeNav()">Home</a>
+            <a href="#about" onclick="closeNav()">About</a>
+            <a href="#skills" onclick="closeNav()">Skills</a>
+            <a href="#certificates" onclick="closeNav()">Certificates</a>
+            <a href="#contact" onclick="closeNav()">Contact</a>
+        </div>
+        <!-- burger -->
+        <div class="burger" onclick="openNav()">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+    <!-- main content-->
+    
+    <main>
+        <!-- home section -->
+        <section id="home">
+            <div class="social-points social">
+                <a href="https://web.facebook.com/rochelle.mellomida" target="_blank">
+                    <img src="assets/fb.png" alt="facebook icon"></a>
+                <a href="https://github.com/Rochelle-code" target="_blank">
+                    <img src="assets/github.png" alt="github icon"></a>
+                <a href="https://www.linkedin.com/in/rochelle-mellomida-886703201/" target="_blank">
+                    <img src="assets/linkedin.png" alt="linkedIn icon"></a>
+                <a href="https://twitter.com/Rochelle_M01" target="_blank">
+                    <img src="assets/twitter.png" alt="twitter icon"></a>
+                <div id="scroll-progress"></div>
+            </div>
+            <div class="intro">
+                <div class="message">
+                    <h3>I am</h3>
+                    <h1>Rochelle Mellomida</h1>
+                    <h2>A Computer Science Student</h2> 
+                    <a href="#contact" class="contact-me">Contact me</a>
+                </div>
+                <img src="assets/myphoto1.png" alt="my photo">
+            </div>
+            <div class="page-points">
+                <a href="#home" class="circle"></a>
+                <a href="#about" class="circle"></a>
+                <a href="#skills" class="circle"></a>
+                <a href="#certificates" class="circle"></a>
+                <a href="#contact" class="circle"></a>
+            </div>
+        </section>
+        <!-- about section -->
+        <section id="about">
+            <div class="about-container">
+                <div id="back-icon"><img src="assets/back.png" alt="back"></div>
+                <div class="content education">
+                    <div class="card">
+                        <div class="icon"><img src="assets/educ-icon.png" alt="education icon"></div>
+                        <h3>Bohol Island State University <br> <span>Clarin Campus</span></h3>
+                        <p>I'm currently Studing here in BISU-Clarin taking up
+                            Bachelor of Science in Computer Science. I am expected
+                            to graduate in the year 2023. This institution is molding
+                            me to become technologically competent and literate.
+                        </p>
+                    </div>
+                </div>
+                <div class="content bio">
+                    <div class="card">
+                        <div class="icon"><img src="assets/bio-icon.png" alt="bio icon"></div>
+                        <h3>My Bio<br> <span>Facts About Me</span></h3>
+                        <p>I currently live in Inabanga, Bohol, Philippines. I was born
+                            on the first day of November, 2000. I'm willing to constantly learn
+                            different types of technologies and be involved in a team building
+                            software which can help humans in their daily lives.
+                        </p>
+                    </div>
+                </div>
+                <div class="content interests">
+                    <div class="card">
+                        <div class="icon"><img src="assets/interests.png" alt="interests icon"></div>
+                        <h3>My Interests <br> <span>The things i love</span></h3>
+                        <p>I'm interested in many fields of software development such as
+                            game development, application development and Artificial Intelligence
+                            but most of all I would like to deep dive in the world of graphic 
+                            design and web development.
+                        </p>
+                    </div>
+                </div>
+                <div id="next-icon"><img src="assets/next.png" alt="next"></div>
+            </div>
+        </section>
+        <!-- skills section -->
+        <section id="skills">
+            <div class="skills-container">
+                <div class="web-dev-icon">
+                    <img src="assets/web-development.png" alt="web development">
+                </div>
+                <div class="skillbars-wrapper">
+                    <div class="title">
+                        <h4>my skills</h4>
+                        <h1>WHAT I AM GOOD AT?</h1>
+                    </div>
+                    <div class="skill">
+                        <div class="html">
+                            <span class="label">html</span>
+                        </div>
+                        <div class="skillbar-full">
+                            <div class="fill skill1"></div>
+                        </div>
+                        <span class="percentage">85%</span>
+                    </div>
+                    <div class="skill">
+                        <div class="css">
+                            <span class="label">css</span>
+                        </div>
+                        <div class="skillbar-full">
+                            <div class="fill skill2"></div>
+                        </div>
+                        <span class="percentage">90%</span>
+                    </div>
+                    <div class="skill">
+                        <div class="js">
+                            <span class="label">js</span>
+                        </div>
+                        <div class="skillbar-full">
+                            <div class="fill skill3"></div>
+                        </div>
+                        <span class="percentage">80%</span>
+                    </div>
+                    <div class="skill">
+                        <div class="php">
+                            <span class="label">php</span>
+                        </div>
+                        <div class="skillbar-full">
+                            <div class="fill skill4"></div>
+                        </div>
+                        <span class="percentage">70%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- certificates section -->
+        <section id="certificates">
+            <div class="container">
+                <input type="radio" name="dot" id="one">
+                <input type="radio" name="dot" id="two">
+                <div class="main-card">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="contents">
+                                <div class="img">
+                                    <img src="assets/html.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="name">HTML</div>
+                                    <div class="source">SOLOLEARN</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="contents">
+                                <div class="img">
+                                    <img src="assets/fcc.png" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="name">RESPONSIVE WEB DESIGN</div>
+                                    <div class="source">FREECODECAMP</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="contents">
+                                <div class="img">
+                                    <img src="assets/css.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="name">CSS</div>
+                                    <div class="source">SOLOLEARN</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="contents">
+                                <div class="img">
+                                    <img src="assets/responsive.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="name">RESPONSIVE WEB DESIGN</div>
+                                    <div class="source">SOLOLEARN</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="contents">
+                                <div class="img">
+                                    <img src="assets/javascript.png" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="name">JAVASCRIPT</div>
+                                    <div class="source">SOLOLEARN</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="contents">
+                                <div class="img">
+                                    <img src="assets/PHP.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="name">PHP</div>
+                                    <div class="source">SOLOLEARN</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button">
+                    <label for="one" class="active one"></label>
+                    <label for="two" class="two"></label>
+                </div>
+            </div>
+        </section>
+        <!-- contact section -->
+        <section id="contact">
+            <div class="wrapper">
+                <h1 class="form-head">Send me a message</h1>
+                <form action="#">
+                    <div class="dbl-field">
+                        <div class="field">
+                            <input type="text" name="name" placeholder="Enter your name">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="field">
+                            <input type="email" name="email" placeholder="Enter your email">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                    </div>
+                    <div class="dbl-field">
+                        <div class="field">
+                            <input type="text" name="phone" placeholder="Enter your phone">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="website" placeholder="Enter your website">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <textarea name="message" placeholder="Write your message"></textarea>
+                        <i class="material-icons">message</i>
+                    </div>
+                    <div class="button-area">
+                        <button type="submit">Send Message</button>
+                        <span>Sending your message...</span>
+                    </div>
+                </form>
+            </div>
+            <script src="script.js"></script>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
